@@ -8,9 +8,9 @@ import createPosts from './Routes/createPosts.js';
 import user from './Routes/user.js';
 import { fileURLToPath } from 'url';
 import path from 'path';
-
+   
 const app = express();
-
+ 
 app.use(express.json());
 
 app.use(cors());
